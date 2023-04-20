@@ -1,0 +1,18 @@
+git init (inicia repositoriao na pasta local)
+git config --list (Verificar nome e email
+git remote add origin (Link dos GITHUB)
+git pull origin main (Puxar arquivos do github)
+git status - (Status do arquvos do projeto)
+git add . (Enviar todos os arquvos na area de stage)
+git commit -m 'Exercicios de fixação" (Criar o commit)
+git branch -m master main (Trocar branch)
+git push -u origin main (Enviar os arquivos para repositorio remoto)
+
+git pull origin master --allow-unrelated-histories (juntar o master com o main quando eles estão desatualizados)
+git branch -m master main
+git push -u origin main
+git checkout master && git pull origin master
+git pull origin master --allow-unrelated-histories
+cd Primeiro-projetoGITHUB/..... (Entra na pasta do projeto)
+git log --oneline (Listar histórico de commits:)+
+
